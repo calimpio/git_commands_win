@@ -1,7 +1,7 @@
 @echo off
 
 call vars.bat
-echo "d: ---%_u%"
+echo d: ---%username%
 
 SET _commit="tarea_%_u%_update"
 
