@@ -9,5 +9,6 @@ git push
 
 git pull
 git checkout -b master
+git branch -d tarea_%user%
 
 pause
