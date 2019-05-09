@@ -1,6 +1,7 @@
 @echo off
 
-set /p user=Entre el username:
+call vars.bat
+
 
 SET _commit="tarea_%user%_update"
 
