@@ -1,5 +1,6 @@
-@echo off
-vars
+
+call vars.bat
+
 
 SET _commit="tarea_%_u%_update"
 
