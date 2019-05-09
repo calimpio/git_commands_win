@@ -8,3 +8,5 @@ git push
 
 git pull
 git checkout -b master
+
+pause
