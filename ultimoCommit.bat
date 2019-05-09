@@ -1,8 +1,10 @@
 @echo off
-SET _commit="update"
+
+SET _commit="finish"
 
 git add .
 git commit -m %_commit%
 git push
 
-pause
+git pull
+git checkout -b master
