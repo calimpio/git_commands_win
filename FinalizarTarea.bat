@@ -1,6 +1,7 @@
 @echo off
+vars
 
-SET _commit="finish"
+SET _commit="tarea_%_u%_finished"
 
 git add .
 git commit -m %_commit%

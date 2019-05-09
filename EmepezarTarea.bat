@@ -1,4 +1,7 @@
-SET brach="tarea_username"
+@echo off
+vars
+
+SET brach="tarea_%_u%"
 
 git pull
 git fetch

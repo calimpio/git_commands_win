@@ -1,5 +1,7 @@
 @echo off
-SET _commit="update"
+vars
+
+SET _commit="tarea_%_u%_update"
 
 git add .
 git commit -m %_commit%
