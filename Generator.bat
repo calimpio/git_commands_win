@@ -2,4 +2,4 @@
 
 set /p user=Entre el username:
 
-echo set user="%user%"> "vars.bat"
+echo set user="%user%"> "..\vars.bat"

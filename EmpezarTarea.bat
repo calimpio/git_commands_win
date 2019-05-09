@@ -1,5 +1,5 @@
 @echo off
-call vars.bat
+call ..\vars.bat
 
 SET brach="tarea_%user%"
 
