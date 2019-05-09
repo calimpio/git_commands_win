@@ -1,5 +1,5 @@
 @echo off
-vars
+set /p _u = Entre el username:
 
 SET brach="tarea_%_u%"
 
