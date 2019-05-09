@@ -1,7 +1,7 @@
 @echo off
-set /p _u = Entre el username:
+call vars.bat
 
-SET _commit="tarea_%_u%_finished"
+SET _commit="tarea_%user%_finished"
 
 git add .
 git commit -m %_commit%
